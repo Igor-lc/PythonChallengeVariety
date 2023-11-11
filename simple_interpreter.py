@@ -46,5 +46,5 @@ pyinstaller --onefile simple_interpreter.py
 Первая скачает и установит библиотеку pyinstaller.
 Вторая создаст файл simple_interpreter.exe из файла simple_interpreter.py
 Вы можете запустить simple_interpreter.exe и сложить два числа з помощью собственного интерпретатора!
-Congratulations!
+Congratulations! Ваш собственный язык программирования работает! Вы можете добавить в код больше функций.
 '''

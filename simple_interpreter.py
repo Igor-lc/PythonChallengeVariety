@@ -37,12 +37,12 @@ while True:
 Откройте PyCharm.
 Откройте терминал в PyCharm (кнопка слева внизу).
 Скопируйте следующие команды:
-'''
 
-# pip install pyinstaller
-# pyinstaller --onefile simple_interpreter.py
 
-'''
+pip install pyinstaller
+pyinstaller --onefile simple_interpreter.py
+
+
 Первая скачает и установит библиотеку pyinstaller.
 Вторая создаст файл simple_interpreter.exe из файла simple_interpreter.py
 Вы можете запустить simple_interpreter.exe и сложить два числа з помощью собственного интерпретатора!

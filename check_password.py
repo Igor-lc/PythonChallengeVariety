@@ -21,5 +21,4 @@ else:
     print('Пользователь не найден')
 
 
-# ver 2
 print('Доступ открыт' if any(d['email'] == argv[1].casefold() and d['password'] == argv[2] for d in users) else 'Доступ закрыт' if any(d['email'] == argv[1].casefold() for d in users) else 'Пользователь не найден')

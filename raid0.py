@@ -17,19 +17,19 @@ print(text[:num_chars])
 
 
 # ver_2
-files_count = int(sys.argv[1])
-chars_count = int(sys.argv[2])
+num_files = int(sys.argv[1])
+num_chars = int(sys.argv[2])
 
 files_data = []
-for f in range(1, files_count + 1):
+for f in range(1, num_files + 1):
     files_data.append(open(f"data-{f}.txt", "r", encoding='utf8').read())
 
 char = 0
 data = ""
 i = 0
-while char < chars_count:
+while char < num_chars:
     for file in files_data:
-        if char == chars_count:
+        if char == num_chars:
             break
         data += file[i]
         char += 1

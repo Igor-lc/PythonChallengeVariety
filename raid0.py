@@ -16,7 +16,6 @@ text = ''.join(l for i, l in data)
 print(text[:num_chars])
 
 
-# ver_2
 num_files = int(sys.argv[1])
 num_chars = int(sys.argv[2])
 

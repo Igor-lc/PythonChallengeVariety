@@ -18,6 +18,7 @@ memory_with_split = sum(sys.getsizeof((word + ' ').encode('utf-8')) for word in 
 print(f"memory_with_split: {memory_with_split} bytes")  # вывод: 160034 bytes
 
 
+# how many objects
 text = 'This Python course is unique ' * 1000
 for word in text:
     print(f'{word}: id: {id(word)}, hash: {hash(word)}')
